@@ -61,7 +61,7 @@ class Balls {
 
 const ballsArray = [];
 
-for (let i = 0; i < 50; i++) {
+for (let i = 0; i < 100; i++) {
 
     let radius = 20;
     let x;
@@ -100,7 +100,7 @@ const animate = () => {
     requestAnimationFrame(animate);
     c.clearRect(0, 0, canvas.width, canvas.height);
 
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 100; i++) {
 
         ballsArray[i].draw();
         ballsArray[i].update();
